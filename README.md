@@ -7,6 +7,7 @@
 ## Date - may 26
 
 researched and found insperation for the project the whole thing is you choose what led you want to power on
+
 the insperation
 <img width="282" height="470" alt="image" src="https://github.com/user-attachments/assets/e9c24cb5-4630-44c5-9f9e-b04a88bcd470" />
 
