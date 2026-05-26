@@ -19,3 +19,4 @@ the insperation
 
 
 ### Time Spent: 15 min
+credit goes to the guide and reddit https://www.reddit.com/r/arduino/comments/1qwpiql/project_help_making_a_switch_of_some_sort_that/
