@@ -2,22 +2,38 @@
 
 # flip flip
 
-[Preface] I'm building led flip that when u click on the switch a diffrent led get powered on.
 
-## Date - may 26
+# LED Flip Circuit
 
-researched and found insperation for the project the whole thing is you choose what led you want to power on
+[Preface] I am  building an LED flip circuit because I wanted to make 
+something where pressing a switch alternates which LED is powered  
+when one turns on the other turns off
 
-the insperation
-<img width="282" height="470" alt="image" src="https://github.com/user-attachments/assets/e9c24cb5-4630-44c5-9f9e-b04a88bcd470" />
+## May 26 - 
+
+Today I worked on researching RC circuits and building the schematic in Falstad and searched for insperation to my circut to be based on.
+the insperation i was talking about:
+<img width="282" height="470" alt="image" src="https://github.com/user-attachments/assets/9c2c1889-45f2-4c63-ba8a-03bebc459166" />
+
+The idea is to have two LED branches that alternate  when one LED is on 
+the other is off I looked into how RC circuits work and found that capacitors  can control current flow with a delay which is what makes the alternating 
+effect possible  Each branch has a 1k resistor to limit current to the LED and a 10µF capacitor that charges and lets off the power it charged 
+which gives the LED the fading effect  When the switch sends power to one branch, that capacitor discharges and lets current flow lighting that LED
+
+I ran into a few issues while building this in Falstad:
+ **Wrong capacitor placement**
+ I wired the capacitors incorrectly at first 
+  which caused the circuit to not work as expected After consistent trail and error i managed to get it working
+**LED polarity**
+I placed one of the LEDs in the wrong direction becuased led are polarized meaning one side is negative and one side is positive which only let on way to worrk
+ **Getting Falstad to work**
+ had a lot of problems with getting falstad working and the interface was confusing at first but got it working after a couple of trail and error
+
+ the final product:
+ <img width="699" height="547" alt="Screenshot 2026-05-29 at 6 26 48 PM" src="https://github.com/user-attachments/assets/7e8e20d3-cdcb-4ffe-90ab-35af6ccb88cd" />
 
 
-<img width="738" height="589" alt="Screenshot 2026-05-26 at 10 31 57 AM" src="https://github.com/user-attachments/assets/72f28f9b-7867-4cc0-900e-7206a88d2469" />
-
-<img width="800" height="563" alt="CleanShot 2026-05-25 at 13 41 58" src="https://github.com/user-attachments/assets/ee8cb05c-fe5b-415a-a72d-4053ed140086" />
-
-
+the insperation i had :
+[Reddit thread](https://www.reddit.com/r/arduino/comments/1qwpiql/project_help_making_a_switch_of_some_sort_that/)
 
 ### Time Spent: 15 min
-credit goes to the guide and reddit https://www.reddit.com/r/arduino/comments/1qwpiql/project_help_making_a_switch_of_some_sort_that/
-
