@@ -1,6 +1,6 @@
 # LED Flip Circuit
 
-A circuit where pressing a switch alternates which LED is powered — 
+A circuit where pressing a switch alternates which LED is powered 
 when one turns on, the other turns off.
 
 to accses the demo you can by going to this link
