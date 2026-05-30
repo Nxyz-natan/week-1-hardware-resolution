@@ -1,22 +1,22 @@
-# week-1-hardware-resolution
+# LED Flip Circuit
 
-# flip flip
+A circuit where pressing a switch alternates which LED is powered — 
+when one turns on, the other turns off.
 
-[Preface] I'm building led flip that when u click on the switch a diffrent led get powered on.
+to accses the demo you can by going to this link
 
-## Date - may 26
+https://falstad.com/circuit/circuitjs.html?ctz=DwYwlgTgBAZgvAIgIwKgFwM6IAwDpsEECsqYIiSeATAVQOx0DM2AHFQGwCcndqIARoiLZUAB0EJhqAG4QhqALaYhAUwC0SFAD4AUFCjAASlAAeiACyd2UKixZRGLczbup4ydqgDu7kVAUAhibS8gD0uvrA0GaS7Ng2dFRQRHE2rG44qHLIhAjhegbRQqnMzinxjuYZCH7ZlAR5EQYAMgCiACKmxfE09uzmPemwmf4A9ogAJiowAQCuADZoavMqE3x1fADmIwIjCvzkNfgo+ZFtnTHlDk5Q7CnXVcM1iuMIUzMLSytrUCAbv9tnr8JH59oc8NgTk1QF1JEgkkhUldetU-OD8IQUFAwCEjgQsRhsn5pBNEBpcOwGHQWMxHFROFQkNxeKcDCBYVdKslbFBzIjUXwcBj8aRcRDIahCSMSRQMXFsAymSwUv02I0CsBNrD+oM+ok0iwBazNRz4VBEfFLNYkOZHr51ZEtZceXzrEQzeZGFQjdCnYg7tYuew7A8fRqAMqwq0uezI1xPPzzMAjNAAC0Q3vywFC4AguiAA
 
-researched and found insperation for the project the whole thing is you choose what led you want to power on
+## Demo
 
-the insperation
-<img width="282" height="470" alt="image" src="https://github.com/user-attachments/assets/e9c24cb5-4630-44c5-9f9e-b04a88bcd470" />
-
-
-<img width="738" height="589" alt="Screenshot 2026-05-26 at 10 31 57 AM" src="https://github.com/user-attachments/assets/72f28f9b-7867-4cc0-900e-7206a88d2469" />
-
-<img width="800" height="563" alt="CleanShot 2026-05-25 at 13 41 58" src="https://github.com/user-attachments/assets/ee8cb05c-fe5b-415a-a72d-4053ed140086" />
+<img width="800" height="629" alt="CleanShot 2026-05-29 at 18 03 34" src="https://github.com/user-attachments/assets/54fe754a-d47c-402d-8b55-d7082e42741f" />
 
 
 
-### Time Spent: 15 min
-credit goes to the guide and reddit https://www.reddit.com/r/arduino/comments/1qwpiql/project_help_making_a_switch_of_some_sort_that/
+## How it works
+
+The circuit uses two parallel branches each with a 1k resistor and a 10µF 
+capacitor connected to an LED When the switch sends power to one branch, 
+that capacitor discharges and allows current to flow lighting up that LED
+The other branch's capacitor charges up and blocks current keeping that LED 
+off Flipping the switch reverses this toggling which LED is on.
